@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Sun Apr 22 12:46:18 PDT 2018
+2.base=/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/gradleBuild/intermediates/assets/debug
+0.path=BUILD
+2.baseType=DIRECTORY
+3.base=/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/gradleBuild/intermediates/assets/debug
+2.set=ASSET
+1.path=coco_labels_list.txt
+4.base=/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/gradleBuild/intermediates/assets/debug
+count=5
+2.path=tensorflow_inception_graph.pb
+4.set=ASSET
+3.path=imagenet_comp_graph_label_strings.txt
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=ssd_mobilenet_v1_android_export.pb
+1.baseType=DIRECTORY
+0.base=/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/gradleBuild/intermediates/assets/debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/gradleBuild/intermediates/assets/debug
+4.baseType=DIRECTORY
+0.set=ASSET

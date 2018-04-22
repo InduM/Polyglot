@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/res/values-sw600dp/template-styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "634",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "874"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "733",
+                        "endLines": "16",
+                        "endColumns": "12",
+                        "endOffsets": "973"
+                    }
+                },
+                {
+                    "source": "/Users/indu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/60f008768e66bf233b6c3f00b2fa9579/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,542",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,592"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,194,268,344,403,474,678",
+                        "endColumns": "68,69,73,75,58,70,67,54",
+                        "endOffsets": "119,189,263,339,398,469,537,728"
+                    }
+                },
+                {
+                    "source": "/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/res/values-sw600dp/template-dimens.xml",
+                    "from": {
+                        "startLines": "20,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "669,737",
+                        "endColumns": "67,67",
+                        "endOffsets": "732,800"
+                    },
+                    "to": {
+                        "startLines": "9,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "542,610",
+                        "endColumns": "67,67",
+                        "endOffsets": "605,673"
+                    }
+                }
+            ]
+        }
+    ]
+}
