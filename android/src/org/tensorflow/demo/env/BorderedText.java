@@ -140,6 +140,7 @@ public class BorderedText {
     //String qw=translte(text,"en","es");
 
     canvas.drawText(text+"   botella(spanish)", posX, posY, exteriorPaint);
+   // canvas.drawText(text+"  "+ qw, posX, posY, exteriorPaint);
    // canvas.drawText(text+" jello ", posX, posY, interiorPaint);
     //try { Thread.sleep(5000); }
     //catch (InterruptedException ex) { android.util.Log.d("YourApplicationName", ex.toString()); }

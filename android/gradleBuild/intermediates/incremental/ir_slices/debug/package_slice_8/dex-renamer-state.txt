@@ -1,0 +1,4 @@
+#Mon Jun 25 15:59:53 PDT 2018
+base.0=/Users/indumanimaran/Documents/GitHub/Polyglot/android/gradleBuild/intermediates/transforms/dexMerger/debug/26
+path.0=classes.dex
+renamed.0=classes.dex

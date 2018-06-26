@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "/Users/indumanimaran/Documents/GitHub/Polyglot/android/gradleBuild/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/indu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/60f008768e66bf233b6c3f00b2fa9579/res/values-v11/values-v11.xml",
+                    "source": "/Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/3a0a56012e533bd516579baf859e4dd5/res/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2,8,14,20,26,32,38,39,40,45,50,52,54,55,56,107,159",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/res/values-v11/template-styles.xml",
+                    "source": "/Users/indumanimaran/Documents/GitHub/Polyglot/android/res/values-v11/template-styles.xml",
                     "from": {
                         "startLines": "19",
                         "startColumns": "4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/indu/Documents/Git/tensorflow/tensorflow/examples/android/res/values-v11/styles.xml",
+                    "source": "/Users/indumanimaran/Documents/GitHub/Polyglot/android/res/values-v11/styles.xml",
                     "from": {
                         "startLines": "7,19,11",
                         "startColumns": "2,2,2",

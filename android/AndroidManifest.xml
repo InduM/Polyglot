@@ -19,22 +19,32 @@
     package="org.tensorflow.demo">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera" />
-    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+
     <uses-sdk
-        android:minSdkVersion="21"
-        android:targetSdkVersion="23" />
+        android:minSdkVersion="23"
+        android:targetSdkVersion="27" />
 
     <application android:allowBackup="true"
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher"
-        android:theme="@style/MaterialTheme">
-
-        <activity android:name="org.tensorflow.demo.DetectorActivity"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        >
+    <activity android:name="org.tensorflow.demo.DetectorActivity"
                   android:screenOrientation="portrait"
                   android:label="@string/activity_name_detection">
             <intent-filter>

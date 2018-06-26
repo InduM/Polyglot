@@ -15,8 +15,7 @@
               'object_detection/ssd_mobilenet_v1_android_export.zip',
 ]*/
 
-def models = ['object_detection/ssd_mobilenet_v1_android_export.zip',
-]
+def models = ['object_detection/ssd_mobilenet_v1_android_export.zip']
 
 // LINT.ThenChange(//tensorflow/examples/android/BUILD)
 
