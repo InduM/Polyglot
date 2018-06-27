@@ -15,6 +15,7 @@ limitations under the License.
 
 package org.tensorflow.demo.env;
 
+import android.app.ProgressDialog;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -22,12 +23,18 @@ import android.graphics.Paint.Align;
 import android.graphics.Paint.Style;
 import android.graphics.Rect;
 import android.graphics.Typeface;
+import android.os.AsyncTask;
+import android.widget.TextView;
+
 import java.util.Vector;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonSyntaxException;
+
+import org.tensorflow.demo.GoogleTranslateActivity;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -44,6 +51,8 @@ public class BorderedText {
   private final Paint exteriorPaint;
 
   private final float textSize;
+  GoogleTranslateActivity translator;
+
 
   /**
    * Creates a left-aligned bordered text object with a white interior, and a black exterior with
@@ -87,59 +96,76 @@ public class BorderedText {
     exteriorPaint.setTypeface(typeface);
   }
 
-  public String translte(String text, String from, String to) {
-    StringBuilder result = new StringBuilder();
-    String API_KEY ="AIzaSyBlKFEQMSVnKQ2-vofmu9w-aG3UJ37zcco";
-    try {
-      String encodedText = URLEncoder.encode(text, "UTF-8");
-      String urlStr = "https://www.googleapis.com/language/translate/v2?key=" + API_KEY + "&q=" + encodedText + "&target=" + to + "&source=" + from;
 
-      URL url = new URL(urlStr);
+  private class EnglishToTagalog extends AsyncTask<Void, Void, Void> {
+    private ProgressDialog progress = null;
+    private  Canvas canvasp;
+    private float posXp;
+    private float posYp;
+    private String textp;
 
-      HttpsURLConnection conn = (HttpsURLConnection) url.openConnection();
-      InputStream stream;
-      if (conn.getResponseCode() == 200) //success
-      {
-        stream = conn.getInputStream();
-      } else
-        stream = conn.getErrorStream();
+    protected void onError(Exception ex) {
 
-      BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
-      String line;
-      while ((line = reader.readLine()) != null) {
-        result.append(line);
-      }
-
-      JsonParser parser = new JsonParser();
-
-      JsonElement element = parser.parse(result.toString());
-
-      if (element.isJsonObject()) {
-        JsonObject obj = element.getAsJsonObject();
-        if (obj.get("error") == null) {
-          String translatedText = obj.get("data").getAsJsonObject().
-                  get("translations").getAsJsonArray().
-                  get(0).getAsJsonObject().
-                  get("translatedText").getAsString();
-          return translatedText;
-
-        }
-      }
-
-      if (conn.getResponseCode() != 200) {
-        System.err.println(result);
-      }
-
-    } catch (IOException | JsonSyntaxException ex) {
-      System.err.println(ex.getMessage());
     }
 
-    return null;
+
+    EnglishToTagalog(final Canvas canvas, final float posX, final float posY, final String text) {
+        canvasp = canvas;
+        posXp   = posX;
+        posYp   = posY;
+        textp   = text;
+    }
+    @Override
+    protected Void doInBackground(Void... params) {
+
+      try {
+        translator = new GoogleTranslateActivity("AIzaSyBlKFEQMSVnKQ2-vofmu9w-aG3UJ37zcco");
+        translated(textp,posXp,posYp,canvasp);
+
+        Thread.sleep(1000);
+
+
+      } catch (Exception e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+      }
+      return null;
+
+    }
+    @Override
+    protected void onCancelled() {
+      super.onCancelled();
+    }
+
+    @Override
+    protected void onPostExecute(Void result) {
+      super.onPostExecute(result);
+    }
+
+    @Override
+    protected void onProgressUpdate(Void... values) {
+      super.onProgressUpdate(values);
+    }
+
   }
+
+
+  public void translated(String textp, final float posX, final float posY,Canvas canvas){
+
+    String text = translator.translte(textp, "en", "es");
+    canvas.drawText(text+"  "+ textp , posX, posY, exteriorPaint);
+  }
+
+
+
+
   public void drawText(final Canvas canvas, final float posX, final float posY, final String text) {
+
+    new EnglishToTagalog(canvas,posX,posY,text).execute();
+
     //String qw=translte(text,"en","es");
 
-    canvas.drawText(text+"   botella(spanish)", posX, posY, exteriorPaint);
+   // canvas.drawText(text+"   botella(spanish)", posX, posY, exteriorPaint);
    // canvas.drawText(text+"  "+ qw, posX, posY, exteriorPaint);
    // canvas.drawText(text+" jello ", posX, posY, interiorPaint);
     //try { Thread.sleep(5000); }

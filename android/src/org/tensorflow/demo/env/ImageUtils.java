@@ -103,7 +103,7 @@ public class ImageUtils {
       int width,
       int height,
       int[] output) {
-    if (useNativeConversion) {
+   /* if (useNativeConversion) {
       try {
         ImageUtils.convertYUV420SPToARGB8888(input, output, width, height, false);
         return;
@@ -112,7 +112,7 @@ public class ImageUtils {
             "Native YUV420SP -> RGB implementation not found, falling back to Java implementation");
         useNativeConversion = false;
       }
-    }
+    }*/
 
     // Java implementation of YUV420SP to ARGB8888 converting
     final int frameSize = width * height;
@@ -168,7 +168,7 @@ public class ImageUtils {
       int uvRowStride,
       int uvPixelStride,
       int[] out) {
-    if (useNativeConversion) {
+    /*if (useNativeConversion) {
       try {
         convertYUV420ToARGB8888(
             yData, uData, vData, out, width, height, yRowStride, uvRowStride, uvPixelStride, false);
@@ -178,7 +178,7 @@ public class ImageUtils {
             "Native YUV420 -> RGB implementation not found, falling back to Java implementation");
         useNativeConversion = false;
       }
-    }
+    }*/
 
     int yp = 0;
     for (int j = 0; j < height; j++) {
@@ -208,8 +208,8 @@ public class ImageUtils {
    * @param height The height of the input image.
    * @param halfSize If true, downsample to 50% in each dimension, otherwise not.
    */
-  private static native void convertYUV420SPToARGB8888(
-      byte[] input, int[] output, int width, int height, boolean halfSize);
+  //private static native void convertYUV420SPToARGB8888(
+    //  byte[] input, int[] output, int width, int height, boolean halfSize);
 
   /**
    * Converts YUV420 semi-planar data to ARGB 8888 data using the supplied width
@@ -225,7 +225,7 @@ public class ImageUtils {
    * @param halfSize If true, downsample to 50% in each dimension, otherwise not.
    * @param output A pre-allocated array for the ARGB 8:8:8:8 output data.
    */
-  private static native void convertYUV420ToARGB8888(
+  /*private static native void convertYUV420ToARGB8888(
       byte[] y,
       byte[] u,
       byte[] v,
@@ -236,7 +236,7 @@ public class ImageUtils {
       int uvRowStride,
       int uvPixelStride,
       boolean halfSize);
-
+*/
   /**
    * Converts YUV420 semi-planar data to RGB 565 data using the supplied width
    * and height. The input and output must already be allocated and non-null.
@@ -247,8 +247,8 @@ public class ImageUtils {
    * @param width The width of the input image.
    * @param height The height of the input image.
    */
-  private static native void convertYUV420SPToRGB565(
-      byte[] input, byte[] output, int width, int height);
+  //private static native void convertYUV420SPToRGB565(
+    //  byte[] input, byte[] output, int width, int height);
 
   /**
    * Converts 32-bit ARGB8888 image data to YUV420SP data.  This is useful, for
@@ -260,9 +260,9 @@ public class ImageUtils {
    * @param width The width of the input image.
    * @param height The height of the input image.
    */
-  private static native void convertARGB8888ToYUV420SP(
+  /*private static native void convertARGB8888ToYUV420SP(
       int[] input, byte[] output, int width, int height);
-
+*/
   /**
    * Converts 16-bit RGB565 image data to YUV420SP data.  This is useful, for
    * instance, in creating data to feed the classes that rely on raw camera
@@ -273,8 +273,6 @@ public class ImageUtils {
    * @param width The width of the input image.
    * @param height The height of the input image.
    */
-  private static native void convertRGB565ToYUV420SP(
-      byte[] input, byte[] output, int width, int height);
 
   /**
    * Returns a transformation matrix from one reference frame into another.

@@ -2,10 +2,16 @@
 manifest
 ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:18:1-59:12
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/fb4f6577f5e1428c62b162d390f63da9/AndroidManifest.xml:2:1-8:12
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/3a0a56012e533bd516579baf859e4dd5/AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/ef3288b7b6c8db644476e664644d662b/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/44c7b5505a2a12ce6049d8cfcd09d7a1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:support-v4:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/7faf46a5fa732785ed00037681d4e619/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4665d130629578e81a6b3729b0a96e14/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a32760d592f400031eb08089e078d762/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/937c34035277838717516fd3c9f19c1f/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/4144ab10178f80611826373782c57471/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a27cbb54be77489c1e2c175370263014/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4e39c6bdb118474026082564c170cca9/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1f61314a6e898fd6eaad17afb3deac3d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/28d98ba191e6c957670d86baf5f9f973/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:17:1-30:12
 	package
 		ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:19:5-34
 	xmlns:android
@@ -52,16 +58,28 @@ ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifes
 		ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:35:22-76
 uses-sdk
 ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:38:5-40:41
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/3a0a56012e533bd516579baf859e4dd5/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/3a0a56012e533bd516579baf859e4dd5/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/ef3288b7b6c8db644476e664644d662b/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/ef3288b7b6c8db644476e664644d662b/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/44c7b5505a2a12ce6049d8cfcd09d7a1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/44c7b5505a2a12ce6049d8cfcd09d7a1/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/7faf46a5fa732785ed00037681d4e619/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/7faf46a5fa732785ed00037681d4e619/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4665d130629578e81a6b3729b0a96e14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4665d130629578e81a6b3729b0a96e14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a32760d592f400031eb08089e078d762/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a32760d592f400031eb08089e078d762/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/937c34035277838717516fd3c9f19c1f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/937c34035277838717516fd3c9f19c1f/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/4144ab10178f80611826373782c57471/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/4144ab10178f80611826373782c57471/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a27cbb54be77489c1e2c175370263014/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a27cbb54be77489c1e2c175370263014/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4e39c6bdb118474026082564c170cca9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4e39c6bdb118474026082564c170cca9/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1f61314a6e898fd6eaad17afb3deac3d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1f61314a6e898fd6eaad17afb3deac3d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/28d98ba191e6c957670d86baf5f9f973/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/28d98ba191e6c957670d86baf5f9f973/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:20:5-22:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/3a0a56012e533bd516579baf859e4dd5/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:40:9-38
 	android:minSdkVersion
@@ -70,14 +88,26 @@ application
 ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:42:5-57:19
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/fb4f6577f5e1428c62b162d390f63da9/AndroidManifest.xml:5:5-6:19
 MERGED from [org.tensorflow:tensorflow-android:1.8.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.8.0.aar/fb4f6577f5e1428c62b162d390f63da9/AndroidManifest.xml:5:5-6:19
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/3a0a56012e533bd516579baf859e4dd5/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/3a0a56012e533bd516579baf859e4dd5/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/ef3288b7b6c8db644476e664644d662b/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/ef3288b7b6c8db644476e664644d662b/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/44c7b5505a2a12ce6049d8cfcd09d7a1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/44c7b5505a2a12ce6049d8cfcd09d7a1/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/7faf46a5fa732785ed00037681d4e619/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/7faf46a5fa732785ed00037681d4e619/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4665d130629578e81a6b3729b0a96e14/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4665d130629578e81a6b3729b0a96e14/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a32760d592f400031eb08089e078d762/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a32760d592f400031eb08089e078d762/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/937c34035277838717516fd3c9f19c1f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/937c34035277838717516fd3c9f19c1f/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/4144ab10178f80611826373782c57471/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/4144ab10178f80611826373782c57471/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a27cbb54be77489c1e2c175370263014/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a27cbb54be77489c1e2c175370263014/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4e39c6bdb118474026082564c170cca9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4e39c6bdb118474026082564c170cca9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1f61314a6e898fd6eaad17afb3deac3d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1f61314a6e898fd6eaad17afb3deac3d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/28d98ba191e6c957670d86baf5f9f973/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/28d98ba191e6c957670d86baf5f9f973/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:24:5-28:19
 	android:label
 		ADDED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:43:9-41
 	android:icon
@@ -112,3 +142,31 @@ uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:18:1-59:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/indumanimaran/Documents/GitHub/Polyglot/android/AndroidManifest.xml:18:1-59:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4665d130629578e81a6b3729b0a96e14/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4665d130629578e81a6b3729b0a96e14/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a32760d592f400031eb08089e078d762/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/a32760d592f400031eb08089e078d762/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/937c34035277838717516fd3c9f19c1f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/937c34035277838717516fd3c9f19c1f/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/4144ab10178f80611826373782c57471/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/4144ab10178f80611826373782c57471/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a27cbb54be77489c1e2c175370263014/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/a27cbb54be77489c1e2c175370263014/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4e39c6bdb118474026082564c170cca9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/4e39c6bdb118474026082564c170cca9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1f61314a6e898fd6eaad17afb3deac3d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/1f61314a6e898fd6eaad17afb3deac3d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/28d98ba191e6c957670d86baf5f9f973/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/28d98ba191e6c957670d86baf5f9f973/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/5aed6787e1fb15124677ee489887360a/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/indumanimaran/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/4b723b12e2c681d7ff24650ff5273029/AndroidManifest.xml:26:13-58
